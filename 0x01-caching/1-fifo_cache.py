@@ -7,6 +7,7 @@ from collections import OrderedDict
 class FIFOCache(BaseCaching):
     """FIFO caching class"""
     def __init__(self):
+        """Initialize the cache"""
         super().__init__()
         self.cache_data = OrderedDict()
 
